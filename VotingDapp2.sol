@@ -61,7 +61,7 @@ contract Voting is Ownable {
     * @dev constructor integration to allow directly Smart Contract deployer to interact with the Dapp.
     **/
     constructor() {
-        voters[msg.sender].isRegistered == true;
+        voters[msg.sender].isRegistered = true;
     }
     
     /**
