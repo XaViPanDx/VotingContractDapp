@@ -6,10 +6,8 @@ import "./node_modules/@openzeppelin/contracts/access/Ownable.sol";
 
 /** 
 $ @title Voting.sol Smart Contract
-*
 * @author Xavier BARADA / github: https://github.com/XaViPanDx
 * @author Antoine PICOT / github: https://github.com/hehehe84
-*
 * @notice Voting.sol Smart Contract allow registered voters to add as musch proposals 
 * they want to finally vote for their favorite.
 * The Owner will specify the different states of voting status.
