@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.18;
 
-import "./node_modules/@openzeppelin/contracts/access/Ownable.sol";
+import "../node_modules/@openzeppelin/contracts/access/Ownable.sol";
 
 /** 
 $ @title Voting.sol Smart Contract
